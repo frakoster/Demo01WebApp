@@ -13,7 +13,7 @@
     </head>
     <body>
         <div class="topnav">
-            <a href="#">Link</a>
+            <a href="#">Home</a>
             <a href="#">Link</a>
             <a href="#">Link</a>
             <a href="logIn.jsp" style="float:right">LogIn</a>

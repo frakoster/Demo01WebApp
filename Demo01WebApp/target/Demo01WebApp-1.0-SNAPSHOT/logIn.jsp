@@ -1,6 +1,6 @@
 <%-- 
     Document   : logIn
-    Created on : Mar 29, 2023, 12:46:18 PM
+    Created on : Mar 29, 2023, 2:16:40 PM
     Author     : farmijo
 --%>
 
@@ -9,27 +9,35 @@
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <link rel="stylesheet" href="/Demo01WebApp/css/login.css">
         <title>JSP Page</title>
     </head>
     <body>
         <%@ include file = "webLayout/header.jsp" %>
+        <link href='https://fonts.googleapis.com/css?family=Open+Sans:700,600' rel='stylesheet' type='text/css'>
 
-        <div class="row">
-            <div class="leftcolumn">
-                <div class="card">
-                    <h2>TITLE HEADING</h2>
-                    <h5>Title description, Dec 7, 2017</h5>
-                    <div class="fakeimg" style="height:200px;">Image</div>
-                    <p>Some text..</p>
-                    <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
-                </div>
+        <form method="post">
+            <div class="box">
+                <h1>Dashboard</h1>
 
-            </div>
+                <input type="email" name="email" value="email" onFocus="field_focus(this, 'email');" onblur="field_blur(this, 'email');" class="email" />
 
-        </div>
+                <input type="password" name="email" value="email" onFocus="field_focus(this, 'email');" onblur="field_blur(this, 'email');" class="email" />
 
+                <a href=ServletControlador?accion=dashboard">
+                    <div class="btn">Sign In</div>
+                </a> <!-- End Btn -->
 
+                <a href="#">
+                    <div id="btn2">Sign Up</div>
+                </a> <!-- End Btn2 -->
 
-        <%@ include file = "webLayout/footer.jsp" %>
+            </div> <!-- End Box -->
+
+        </form>
+
+        <p>Forgot your password? <u style="color:#f1c40f;">Click Here!</u></p>
+
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js" type="text/javascript"></script><%@ include file = "webLayout/footer.jsp" %>
     </body>
 </html>

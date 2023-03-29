@@ -13,9 +13,9 @@
         <title>Demo01WebApp</title>
     </head>
     <body>
-         <%@ include file = "webLayout/header.jsp" %>
-          <%@ include file = "webLayout/menu.jsp" %>
-         <%@ include file = "webLayout/body.jsp" %>
-         <%@ include file = "webLayout/footer.jsp" %>
+        <%@ include file = "webLayout/header.jsp" %>
+        <%@ include file = "webLayout/menu.jsp" %>
+        <%@ include file = "webLayout/body.jsp" %>
+        <%@ include file = "webLayout/footer.jsp" %>
     </body>
 </html>
