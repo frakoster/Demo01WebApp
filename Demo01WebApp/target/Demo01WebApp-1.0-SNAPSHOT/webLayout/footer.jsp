@@ -1,6 +1,6 @@
 <%-- 
-    Document   : menu
-    Created on : Mar 29, 2023, 12:26:30 PM
+    Document   : footer
+    Created on : Mar 29, 2023, 12:17:58 PM
     Author     : farmijo
 --%>
 
@@ -9,14 +9,12 @@
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <link rel="stylesheet" href="/Demo01WebApp/css/style.css">
         <title>JSP Page</title>
     </head>
     <body>
-        <div class="topnav">
-            <a href="#">Link</a>
-            <a href="#">Link</a>
-            <a href="#">Link</a>
-            <a href="logIn.jsp" style="float:right">LogIn</a>
+        <div class="footer">
+            <h2>Footer</h2>
         </div>
     </body>
 </html>
